@@ -65,11 +65,11 @@ namespace Ljalik
                     break;
                 case "Laupäev":
                     await Navigation.PopAsync();
-                    await Navigation.PushAsync(new Teisipaev());//открывается Laupaev
+                    await Navigation.PushAsync(new Laupaev());//открывается Laupaev
                     break;
                 case "Pühapäev":
                     await Navigation.PopAsync();
-                    await Navigation.PushAsync(new Teisipaev());//открывается Puhapaev
+                    await Navigation.PushAsync(new Puhapaev());//открывается Puhapaev
                     break;
                     throw new NotImplementedException();
             }
