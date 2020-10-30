@@ -96,5 +96,6 @@ namespace Ljalik
         {
             await Navigation.PopAsync();
         }
+
     }
 }
